@@ -16,6 +16,8 @@
 		36A7606125654D3C0087FC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A7605F25654D3C0087FC6C /* LaunchScreen.storyboard */; };
 		36A7606C25654D3C0087FC6C /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7606B25654D3C0087FC6C /* TableViewTests.swift */; };
 		36A7607725654D3C0087FC6C /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7607625654D3C0087FC6C /* TableViewUITests.swift */; };
+		36A760882565518F0087FC6C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A760862565518F0087FC6C /* CustomCell.swift */; };
+		36A760892565518F0087FC6C /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A760872565518F0087FC6C /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		36A7607225654D3C0087FC6C /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A7607625654D3C0087FC6C /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		36A7607825654D3C0087FC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A760862565518F0087FC6C /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		36A760872565518F0087FC6C /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				36A7605F25654D3C0087FC6C /* LaunchScreen.storyboard */,
 				36A7606225654D3C0087FC6C /* Info.plist */,
 				36A7605A25654D3A0087FC6C /* TableView.xcdatamodeld */,
+				36A760862565518F0087FC6C /* CustomCell.swift */,
+				36A760872565518F0087FC6C /* CustomCell.xib */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -237,6 +243,7 @@
 			files = (
 				36A7606125654D3C0087FC6C /* LaunchScreen.storyboard in Resources */,
 				36A7605E25654D3C0087FC6C /* Assets.xcassets in Resources */,
+				36A760892565518F0087FC6C /* CustomCell.xib in Resources */,
 				36A7605925654D3A0087FC6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +271,7 @@
 			files = (
 				36A7605625654D3A0087FC6C /* ViewController.swift in Sources */,
 				36A7605C25654D3A0087FC6C /* TableView.xcdatamodeld in Sources */,
+				36A760882565518F0087FC6C /* CustomCell.swift in Sources */,
 				36A7605225654D3A0087FC6C /* AppDelegate.swift in Sources */,
 				36A7605425654D3A0087FC6C /* SceneDelegate.swift in Sources */,
 			);
